@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home", "menu": "Menu", "reservations": "Reservations",
+    "gallery": "Gallery", "about": "About", "contact": "Contact",
+    "reserve": "Book a Table"
+  },
+  "hero": {
+    "tagline": "Authentic Italian Pizza",
+    "location": "In the heart of Costa Calma, Fuerteventura",
+    "headline1": "Authentic", "headline2": "Italian Pizza",
+    "description": "Hand-stretched dough, San Marzano tomatoes, fior di latte mozzarella.",
+    "cta_primary": "Book a Table", "cta_secondary": "View Menu",
+    "scroll": "Scroll to discover", "rating_reviews": "821 reviews",
+    "slogan": "Life is too short to eat bad pizza!"
+  },
+  "about": {
+    "label": "OUR STORY",
+    "heading": "A Passion for Authentic Pizza",
+    "body": "At L'AperiPizza, every pizza is a work of art. Since opening in Costa Calma, we've dedicated ourselves to bringing authentic Italian flavors to Fuerteventura. Our dough is prepared daily with selected ingredients, and each pizza is baked in our traditional oven to perfection.",
+    "feature1_title": "Traditional Oven", "feature1_desc": "Pizza baked in a wood-fired oven at 485°C for a perfect crust",
+    "feature2_title": "Fresh Ingredients", "feature2_desc": "Selected ingredients imported directly from Italy",
+    "feature3_title": "Authentic Recipes", "feature3_desc": "Traditional Neapolitan recipes passed down with passion",
+    "hours_title": "Opening Hours",
+    "hours_weekdays": "Wednesday to Sunday", "hours_weekday_time": "12:00 – 23:00",
+    "hours_closed_days": "Monday & Tuesday", "hours_closed_time": "Closed"
+  },
+  "menu": {
+    "label": "OUR MENU", "heading": "Discover Our Flavours",
+    "slogan": "Life is too short to eat bad pizza!",
+    "note_base": "All pizzas include tomato and mozzarella",
+    "note_wholegrain": "Wholegrain flour +€0.50",
+    "size_normal": "Normal", "size_maxi": "Maxi",
+    "tab_pizza": "Pizza", "tab_calzone": "Calzone",
+    "tab_starters": "Starters", "tab_salads": "Salads", "tab_specials": "Specials"
+  },
+  "reservations": {
+    "label": "RESERVATIONS",
+    "heading": "Book Your Table",
+    "body": "Secure your spot at L'AperiPizza. For groups larger than 8 people, contact us directly via WhatsApp.",
+    "hours": "Wednesday to Sunday · 12:00 – 23:00",
+    "whatsapp_btn": "Book via WhatsApp",
+    "form_name": "Full name",
+    "form_email": "Email address",
+    "form_phone": "Phone number",
+    "form_date": "Date",
+    "form_time": "Time",
+    "form_guests": "Guests",
+    "form_occasion": "Occasion",
+    "form_occasion_normal": "Normal",
+    "form_occasion_birthday": "Birthday 🎂",
+    "form_occasion_anniversary": "Anniversary 💑",
+    "form_occasion_business": "Business 💼",
+    "form_occasion_other": "Other",
+    "form_requests": "Special requests (optional)",
+    "form_submit": "Confirm Reservation",
+    "form_whatsapp_note": "WhatsApp will open with your booking details",
+    "success_title": "Perfect!",
+    "success_body": "Your booking is on its way. Complete it in WhatsApp.",
+    "wa_greeting": "Hello! I would like to make a reservation at L'AperiPizza",
+    "wa_date": "Date", "wa_time": "Time", "wa_guests": "Guests",
+    "wa_name": "Name", "wa_phone": "Phone", "wa_email": "Email",
+    "wa_occasion": "Occasion", "wa_requests": "Special requests"
+  },
+  "gallery": {
+    "label": "GALLERY",
+    "heading": "Moments at L'AperiPizza",
+    "close": "Close", "prev": "Previous", "next": "Next"
+  },
+  "reviews": {
+    "label": "REVIEWS",
+    "heading": "What Our Guests Say",
+    "verified": "Verified review",
+    "tripadvisor_rank": "#2 of 47 restaurants in Costa Calma",
+    "total_reviews": "821 reviews",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "location": {
+    "label": "FIND US", "title": "Come visit us",
+    "address": "Centro C. Plaza, C. Punta Pesebre, Local D2\n35627 Costa Calma\nFuerteventura, Spain",
+    "hours_title": "Opening Hours",
+    "hours": { "weekdays": "Wednesday – Sunday", "weekday_time": "12:00 – 23:00", "closed_days": "Monday & Tuesday", "closed_time": "Closed" },
+    "phone": "+34 609 92 70 43", "email": "aperipizzacostacalma@gmail.com",
+    "directions": "Get Directions",
+    "whatsapp": "WhatsApp",
+    "call_label": "Calls & WhatsApp",
+    "email_label": "Reply within 24 hours"
+  },
+  "footer": {
+    "tagline": "Life is too short to eat bad pizza!",
+    "links_title": "Quick Links",
+    "contact_title": "Contact",
+    "hours_title": "Hours",
+    "rights": "All rights reserved.",
+    "newsletter_title": "News & Offers",
+    "newsletter_placeholder": "Your email address",
+    "newsletter_btn": "Subscribe",
+    "newsletter_success": "Thank you for subscribing!",
+    "designed_by": "Designed with ❤️ in Fuerteventura"
+  },
+  "delivery": {
+    "label": "HOME DELIVERY",
+    "heading": "We bring the pizza to you",
+    "body": "Takeaway and delivery orders · Costa Calma",
+    "phone_label": "Landline",
+    "mobile_label": "Mobile / WhatsApp",
+    "hours_label": "Delivery hours",
+    "hours": "12:00 – 22:00"
+  },
+  "cookie": {
+    "title": "We use cookies",
+    "body": "We use cookies to improve your experience on our website. By continuing, you accept our privacy policy.",
+    "accept": "Accept all",
+    "decline": "Essential only",
+    "more_info": "More information"
+  },
+  "whatsapp_float": {
+    "tooltip": "Need help?"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Inicio", "menu": "Carta", "reservations": "Reservas",
+    "gallery": "Galería", "about": "Nosotros", "contact": "Contacto",
+    "reserve": "Reservar Mesa"
+  },
+  "hero": {
+    "tagline": "Pizza Italiana Auténtica",
+    "location": "En el corazón de Costa Calma, Fuerteventura",
+    "headline1": "Pizza Italiana", "headline2": "Auténtica",
+    "description": "Masa estirada a mano, tomates San Marzano, mozzarella fior di latte.",
+    "cta_primary": "Reservar Mesa", "cta_secondary": "Ver Carta",
+    "scroll": "Descubre más", "rating_reviews": "821 reseñas",
+    "slogan": "¡La vida es demasiado corta para comer una mala pizza!"
+  },
+  "about": {
+    "label": "NUESTRA HISTORIA",
+    "heading": "Pasión por la Pizza Auténtica",
+    "body": "En L'AperiPizza, cada pizza es una obra de arte. Desde nuestra apertura en Costa Calma, nos hemos dedicado a traer los sabores auténticos de Italia a Fuerteventura. Nuestra masa se prepara diariamente con ingredientes seleccionados, y cada pizza se hornea en nuestro horno tradicional hasta alcanzar la perfección.",
+    "feature1_title": "Horno Tradicional", "feature1_desc": "Pizza horneada en horno de leña a 485°C para una corteza perfecta",
+    "feature2_title": "Ingredientes Frescos", "feature2_desc": "Ingredientes seleccionados importados directamente de Italia",
+    "feature3_title": "Recetas Auténticas", "feature3_desc": "Recetas napolitanas tradicionales transmitidas con pasión",
+    "hours_title": "Horario de Apertura",
+    "hours_weekdays": "Miércoles a Domingo", "hours_weekday_time": "12:00 – 23:00",
+    "hours_closed_days": "Lunes y Martes", "hours_closed_time": "Cerrado"
+  },
+  "menu": {
+    "label": "NUESTRA CARTA", "heading": "Descubre Nuestros Sabores",
+    "slogan": "¡La vida es demasiado corta para comer una mala pizza!",
+    "note_base": "Todas las pizzas llevan tomate y mozzarella",
+    "note_wholegrain": "Harina integral +0,50€",
+    "size_normal": "Normal", "size_maxi": "Maxi",
+    "tab_pizza": "Pizza", "tab_calzone": "Calzone",
+    "tab_starters": "Entrantes", "tab_salads": "Ensaladas", "tab_specials": "Especiales"
+  },
+  "reservations": {
+    "label": "RESERVAS",
+    "heading": "Reserva Tu Mesa",
+    "body": "Asegura tu lugar en L'AperiPizza. Para grupos de más de 8 personas, contáctanos directamente por WhatsApp.",
+    "hours": "Miércoles a Domingo · 12:00 – 23:00",
+    "whatsapp_btn": "Reservar por WhatsApp",
+    "form_name": "Nombre completo",
+    "form_email": "Correo electrónico",
+    "form_phone": "Teléfono",
+    "form_date": "Fecha",
+    "form_time": "Hora",
+    "form_guests": "Comensales",
+    "form_occasion": "Ocasión",
+    "form_occasion_normal": "Normal",
+    "form_occasion_birthday": "Cumpleaños 🎂",
+    "form_occasion_anniversary": "Aniversario 💑",
+    "form_occasion_business": "Negocios 💼",
+    "form_occasion_other": "Otro",
+    "form_requests": "Peticiones especiales (opcional)",
+    "form_submit": "Confirmar Reserva",
+    "form_whatsapp_note": "Se abrirá WhatsApp con los detalles de tu reserva",
+    "success_title": "¡Perfecto!",
+    "success_body": "Tu reserva está en camino. Complétala en WhatsApp.",
+    "wa_greeting": "Hola! Me gustaría hacer una reserva en L'AperiPizza",
+    "wa_date": "Fecha", "wa_time": "Hora", "wa_guests": "Comensales",
+    "wa_name": "Nombre", "wa_phone": "Teléfono", "wa_email": "Email",
+    "wa_occasion": "Ocasión", "wa_requests": "Peticiones especiales"
+  },
+  "gallery": {
+    "label": "GALERÍA",
+    "heading": "Momentos en L'AperiPizza",
+    "close": "Cerrar", "prev": "Anterior", "next": "Siguiente"
+  },
+  "reviews": {
+    "label": "OPINIONES",
+    "heading": "Lo Que Dicen Nuestros Clientes",
+    "verified": "Reseña verificada",
+    "tripadvisor_rank": "#2 de 47 restaurantes en Costa Calma",
+    "total_reviews": "821 reseñas",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "location": {
+    "label": "ENCUÉNTRANOS", "title": "Ven a visitarnos",
+    "address": "Centro C. Plaza, C. Punta Pesebre, Local D2\n35627 Costa Calma\nFuerteventura, España",
+    "hours_title": "Horario",
+    "hours": { "weekdays": "Miércoles – Domingo", "weekday_time": "12:00 – 23:00", "closed_days": "Lunes & Martes", "closed_time": "Cerrado" },
+    "phone": "+34 609 92 70 43", "email": "aperipizzacostacalma@gmail.com",
+    "directions": "Cómo llegar",
+    "whatsapp": "WhatsApp",
+    "call_label": "Llamadas y WhatsApp",
+    "email_label": "Respuesta en menos de 24h"
+  },
+  "footer": {
+    "tagline": "¡La vida es demasiado corta para comer una mala pizza!",
+    "links_title": "Accesos Rápidos",
+    "contact_title": "Contacto",
+    "hours_title": "Horario",
+    "rights": "Todos los derechos reservados.",
+    "newsletter_title": "Novedades y Ofertas",
+    "newsletter_placeholder": "Tu dirección de email",
+    "newsletter_btn": "Suscribirse",
+    "newsletter_success": "¡Gracias por suscribirte!",
+    "designed_by": "Diseñado con ❤️ en Fuerteventura"
+  },
+  "delivery": {
+    "label": "REPARTO A DOMICILIO",
+    "heading": "Llevamos la pizza hasta ti",
+    "body": "Pedidos para llevar y a domicilio · Costa Calma",
+    "phone_label": "Teléfono fijo",
+    "mobile_label": "Móvil / WhatsApp",
+    "hours_label": "Horario de reparto",
+    "hours": "12:00 – 22:00"
+  },
+  "cookie": {
+    "title": "Utilizamos cookies",
+    "body": "Usamos cookies para mejorar tu experiencia en nuestra web. Al continuar, aceptas nuestra política de privacidad.",
+    "accept": "Aceptar todo",
+    "decline": "Solo esenciales",
+    "more_info": "Más información"
+  },
+  "whatsapp_float": {
+    "tooltip": "¿Necesitas ayuda?"
+  }
+}

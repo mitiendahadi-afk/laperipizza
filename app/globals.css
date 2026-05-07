@@ -1,26 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ─── Brand Design Tokens ──────────────────────────────────────────────────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Exact brand palette */
+  --color-primary:    #C65D3A; /* warm terracotta */
+  --color-primary-h:  #d46b47; /* hover */
+  --color-secondary:  #1B3A5C; /* deep ocean blue */
+  --color-cream:      #F5EFE6;
+  --color-cream-dark: #EDE4D3;
+  --color-gold:       #D4A574;
+  --color-gold-light: #E8C49A;
+  --color-charcoal:   #2C2C2C;
+  --color-dark:       #1a1a1a;
+  --color-mist:       #8B8070;
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body:    "Inter", system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base Reset ────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+img { display: block; max-width: 100%; border: 0; }
+a { -webkit-tap-highlight-color: transparent; }
+a:focus, a:focus-visible { outline: none; }
+
+/* ─── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: var(--color-cream-dark); }
+::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 3px; }
+
+/* ─── Selection ─────────────────────────────────────────────────────────────── */
+::selection { background: var(--color-primary); color: var(--color-cream); }
+
+/* ─── Responsive display typography (clamp-based) ──────────────────────────── */
+.text-display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 8vw, 6.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.text-display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.text-display-md {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+.text-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* ─── Text shadow utility (readability over images) ─────────────────────────── */
+.text-shadow-hero {
+  text-shadow: 0 2px 20px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3);
+}
+.text-shadow-sm {
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+}
+
+/* ─── Ken Burns keyframe ─────────────────────────────────────────────────────── */
+@keyframes kenburns {
+  0%   { transform: scale(1)    translate(0, 0); }
+  50%  { transform: scale(1.08) translate(-1%, -0.5%); }
+  100% { transform: scale(1)    translate(0, 0); }
+}
+.animate-kenburns {
+  animation: kenburns 20s ease-in-out infinite;
+}
+
+/* ─── Bounce keyframe for scroll indicator ───────────────────────────────────── */
+@keyframes bounce-y {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(8px); }
+}
+.animate-bounce-y { animation: bounce-y 1.6s ease-in-out infinite; }
+
+/* ─── Glass morphism utility ─────────────────────────────────────────────────── */
+.glass {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.glass-dark {
+  background: rgba(26,26,26,0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.1);
 }
